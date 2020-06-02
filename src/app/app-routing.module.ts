@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PruebasComponent } from './componentes/componentes/pruebas/pruebas.component';
+import { ListadoClientesComponent  } from 'src/app/listado-clientes/listado-clientes.component';
 
 const routes: Routes = [
 
-  { path: 'home', component: PruebasComponent }
+  { path: 'home', component: ListadoClientesComponent }
+  //,{ path: 'listas', component: ListasComponent }
 ];
 
 @NgModule({
