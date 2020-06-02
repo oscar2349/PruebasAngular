@@ -4,7 +4,7 @@ import { ListadoClientesComponent  } from 'src/app/listado-clientes/listado-clie
 
 const routes: Routes = [
 
-  { path: 'home', component: ListadoClientesComponent },
+  { path: 'listado', component: ListadoClientesComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
